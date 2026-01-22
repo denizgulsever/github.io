@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Centrerad bild med bakåtknapp</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+
+        /* Huvudbild */
+        .main-image {
+            max-width: 90vw;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+
+        /* Bakåtknapp */
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+
+        .back-button img {
+            width: 70px;
+            cursor: pointer;
+        }
+
+        .back-button img:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Bakåtknapp -->
+    <a href="douchebag.html" class="back-button">
+        <img src="bakot.png" alt="Tillbaka">
+    </a>
+
+    <!-- Huvudbild -->
+    <img src="trump.png" alt="Beskrivning av bilden" class="main-image">
+
+</body>
+</html>
