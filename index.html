@@ -1,54 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of hemmahosdeniz</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <style>
-   
-   body {background-color: red;
-    background-image: url("bryppebock.png");   
-   }
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
   
-   .bilden {
-     width: 300px;
-   display: block;
-  margin: auto;
-  width: 50%;   
-   }
-   
-   .texten {
-     font-family: Tahoma, sans-serif;
-     color: yellow;
-    font-size: 40px;
-    text-align: center;   
-   }  
-   
-.storre  {
-     font-family: Tahoma, sans-serif;
-     color: yellow;
-    font-size: 200px;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 10px 10px #ff0000
-   }
-   
+  <style>
+  
+   .overlay-image {
+      position: absolute;
+      top: 0; /* ligger ovanpå toppen */
+      left: 50%;
+      transform: translateX(-50%); /* centrerar horisontellt */
+      width: 480px; /* 50% av huvudbilden */
+      height: auto; /* behåller proportioner */
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center; /* horisontell centrering */
+      align-items: center;     /* vertikal centrering */
+      background-color: salmon;  /* valfri bakgrundsfärg */
+    }
+
+    .map-image {
+      display: block;
+      width: 960px;   /* skalfaktor applicerad */
+      height: 1080px; /* behåller proportioner */
+    }
+  </style>
+</head>
+<body>
+
+  <img src="douchebag3.png" usemap="#image-map" class="map-image" alt="Karta">
+ 
+  <map name="image-map">
+
+    <!-- ERDOGAN -->
+    <area target="_blank" alt="erdogan" title="erdogan" href="erdogan.html" shape="rect" coords="142,863,274,1003">
+
+    <!-- PUTIN -->
+    <area target="_blank" alt="putin" title="putin" href="putin.html" shape="rect" coords="465,1025,351,919">
+
+    <!-- TRUMP -->
+    <area target="_blank" alt="trump" title="trump" href="trump.html" shape="rect" coords="595,894,730,1016">
+
+    <!-- KIM JONG UN -->
+    <area target="_blank" alt="kim" title="kim" href="kimjongun.html" shape="rect" coords="368,813,454,902">
+
+    <!-- NETANYAHU -->
+    <area target="_blank" alt="netanyahu" title="netanyahu" href="netanyahu.html" shape="rect" coords="794,864,902,980">
+
+  </map>
+
+</body>
+</html>
+
+</body>
+</html>
 
 
-   
-   </style>
-  </head>
+
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
+
+</html>
+
   <body>
-    <h1>deniz hemsida</h1>
-    <a href="fanpage.html">fan page</a><br>
-   <a href="about.html">about</a><br>
-   <a href="links.html">links</a><br>
-   <a href="index.html">back to my homepage</a><br>
- <h1 class="storre">HEJA BRYNÄS</h1>
- <a href=https://www.youtube.com/watch?v=ak2hpCuIPCg&list=RDak2hpCuIPCg&start_radio=1>:D<3</a>
-   
+
   </body>
 </html>
